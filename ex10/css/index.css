@@ -1,0 +1,56 @@
+body{
+    font-weight: 300;
+    background: #181818;
+    color: white;
+    overflow: hidden;
+}
+#wraper {
+    display: flex;
+    flex-direction: column;
+    
+}
+#left{
+    flex: 1;
+    float: left;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#right {
+    flex: 1;
+    float: right;
+    width: 60%;
+
+}
+#signin{
+    
+   
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+#signin form{
+    padding-bottom: 3rem;
+}
+.logo{
+    margin-bottom: 8vh;
+}
+.primary-btn{
+    padding: 0.5 rem;
+    height: 3rem;
+    display: block;
+    border:0;
+    background: orange;
+    text-align: center;
+    cursor: pointer;
+}
+#showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://image.ibb.co/cO9Lxq/login-bg.jpg') no-repeat center
+      center / cover;
+    height: 100vh;
+    text-align: center;
+  }
